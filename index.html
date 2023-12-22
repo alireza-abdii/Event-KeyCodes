@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Event KeyCodes</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    
+
+    <div class="keycode-container">
+
+        <section id="keycode-intro">
+            <div class="keycode-title">Press any key to get the Javascript event keycode</div>
+        </section>
+
+        <section id="keycode-result">
+            <div class="keycode-header">
+                <h1 class="keycode-title">Js Event KeyCodes</h1>
+            </div>
+            
+            <div id="keycode-ascii"></div>
+
+            <div class="keycode-details">
+                <div class="details-container">
+                    <div class="details-top">event.key</div>
+                    <div class="details-content" id="key"></div> 
+                </div>
+
+                <div class="details-container">
+                    <div class="details-top">event.location</div>
+                    <div class="details-content" id="location"></div>
+                </div>
+
+                <div class="details-container">
+                    <div class="details-top">event.which</div>
+                    <div class="details-content" id="ascii"></div>
+                </div>
+
+                <div class="details-container">
+                    <div class="details-top">event.code</div>
+                    <div class="details-content"  id="code"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
